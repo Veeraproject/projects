@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;    
+}
+section{
+    border: 1px solid white;
+    text-align: center;
+    width: 500px;
+    height: 280px;
+    background-color: white;
+    position: relative;
+    margin-left:330px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+#count{
+    font-size: 50px;
+    margin:25px,195px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    font-size:80px;
+}
+#button{
+    margin: 25px,180px;
+}
+#increase{
+    padding:10px,20px;
+    font-size:20px;
+    background-color:green;
+    color:white;
+    border-color:green;
+}
+#decrease{
+    padding:10px,20px;
+    font-size:20px;
+    background-color:red;
+    color:white;
+    border-color:red;
+}
+#res{
+    padding:10px,30px;
+    font-size:20px;
+    background-color:grey;
+    color:white;
+    border-color:grey;
+}
+div{
+    position: relative;
+    margin-top: 35px;
+}

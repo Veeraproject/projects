@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form_validation.css">
+</head>
+
+<body>
+    <h1>NEW USER SIGN UP</h1>
+    <section>
+        
+        <input type="text" oninput="firstresult()" id="firstname" placeholder="first name"><br>
+        <span id="name">FirstName should contain 5-15 characters</span>
+
+        <input type="text" oninput="userresult()" id="username" placeholder="user name"><br>
+        <span id="usernamerr">Username must be and contain 5-12 character</span>
+
+        <input type="text" oninput="emailresult()" id="emailname" placeholder="email"><br>
+        <span id="emailnamerr">email must be a valid address,e.g. me@mydomain.com</span>
+
+        <input type="text" oninput="passresult()" id="passname" placeholder="password"><br>
+        <span id="passnamerr">password must be alphanumeric(@,_and- are also allowed)and be 8-20 characters</span>
+
+        <input type="text" oninput="telephoneresult()" id="telephonename" placeholder="telephone"><br>
+        <span id="telephonenamerr">Telephone must be a valid indian telephone number(10 digits)</span>
+
+        <input type="text" oninput="pancardresult()" id="pancardname" placeholder="pancard"><br>
+        <span id="pancardnamerr">must be a valid pancard Number</span>
+    </section>
+    <script src="./form_validation.js">
+       
+    </script>
+</body>
+
+</html>
